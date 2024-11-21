@@ -4,17 +4,21 @@
 // @youtube : https://www.youtube.com/@heyits_tylor
 // @instagram  : heyits_tylor
 // @telegram : t.me/heyits_tylor
-// @github : heyit-tylor
+// @github : Dark-Xploit
 // @tiktok :hey.its_tylor
 // @whatsapp : +254796180105
 //*
 //*
 //=================================================//
 const fs = require('fs')
+const { color } = require('./lib/color')
 if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
-
 //=================================================//
 
+global.SESSION_ID = process.env.SESSION_ID || ''
+//Enter your Xploader session id here; must start with XPLOADER~
+
+//=================================================//
 
 global.botname = process.env.BOT_NAME || '𝐗𝐩𝐥𝐨𝐚𝐝𝐞𝐫𝐁𝐨𝐭' 
 //Your desured bot name
@@ -44,12 +48,12 @@ global.wm = process.env.GL_WM || "©𝐗𝐩𝐥𝐨𝐚𝐝𝐞𝐫𝐁𝐨𝐭
 
 //=================================================//
 
-global.packname = process.env.PACK_NAME || "Xploader"
+global.packname = process.env.STICKER_PACK_NAME || "Xploader"
 //The sticker pack name 
 
 //=================================================//
 
-global.author = process.env.AUTHOR_NAME || "Bot"
+global.author = process.env.STICKER_AUTHOR_NAME || "Bot"
 //The sticker author name 
 
 //=================================================//
@@ -72,11 +76,28 @@ global.hituet = 0
 
 //=================================================//
 
-global.timezones = process.env.TIMEZONE || "Africa/Nairobi" //Don't edit this if you don't know!
+global.autoswview = process.env.AUTO_STATUS_SEEN || false
+//Set true to enable and false to disable auto status view
 
 //=================================================//
 
-global.typemenu = process.env.MENU_DESIGN || 'v2' 
+global.autoreact = process.env.AUTO_STATUS_REACT || true
+//Set true to enable and false to disable auto status reaction
+//Auto status view will also be enabled when set to true!
+
+//=================================================//
+
+global.statusemoji = process.env.STATUS_EMOJI || '🧡'
+//Set the emoji that you want to be reacted to status
+
+//=================================================//
+
+global.timezones = process.env.TIMEZONE || "Africa/Nairobi" //Don't edit this if you don't know!
+
+//=================================================//
+//=================================================//
+
+global.typemenu = process.env.MENU_DESIGN || 'v1' 
 //Choose a menu type 'v1' for iOS and Android user's or 'v2' for Android user's only 
 
 //=================================================//
