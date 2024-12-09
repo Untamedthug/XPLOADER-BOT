@@ -1,4 +1,4 @@
-  //project_name : XPLOADER
+&  //project_name : XPLOADER
 // @author : TYLOR
 // @youtube : https://www.youtube.com/@heyits_tylor
 // @instagram : heyits_tylor
@@ -64,7 +64,7 @@ global.autoreact = process.env.AUTO_STATUS_REACT === 'true'
 global.anticall = process.env.ANTI_CALL === 'false'
 global.adminevent = process.env.ANNOUNCE_MSG === 'false'
 global.groupevent = process.env.GROUP_ANNOUNCE_MSG === 'false'
-global.welcome = process.env.WELCOME_MSG === 'false'
+
 //=================================================//
 global.statusemoji = process.env.STATUS_EMOJI || '🧡'
 //Set the emoji that you want to be reacted to status
