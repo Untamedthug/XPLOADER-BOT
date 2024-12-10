@@ -17,56 +17,71 @@ global.SESSION_ID = process.env.SESSION_ID || ''
 //Enter your Xploader session id here; must start with XPLOADER~
 
 //=================================================//
-global.botname = process.env.BOT_NAME || '𝐗𝐩𝐥𝐨𝐚𝐝𝐞𝐫𝐁𝐨𝐭' 
+global.botname = process.env.BOT_NAME || '©•𝐗𝐩𝐥𝐨𝐚𝐝𝐞𝐫𝐁𝐨𝐭™✓' 
 //Your desired bot name
 
 //=================================================//
-global.ownernumber = process.env.OWNER_NUMBER || '254796180105' 
+global.ownernumber = process.env.OWNER_NUMBER || '254757837444' 
 //Type your number here
 
 //=================================================//
-global.ownername = process.env.OWNER_NAME || 'Tylor' 
+global.ownername = process.env.OWNER_NAME || '👾∙∙∙`𝐂 𝐎 𝐃 𝐄 [ 𝐗 ]`∙∙∙👾' 
 //Type your name here
 
 //=================================================//
 global.wagc = process.env.GL_PUSH || "https://whatsapp.com/channel/0029VamSWUx77qVNJDy1Jf11"
 
 //=================================================//
-global.themeemoji = process.env.GL_EMOJI || ''
+global.themeemoji = process.env.GL_EMOJI || '👾'
 
 //=================================================//
-global.wm = process.env.GL_WM || "©𝐗𝐩𝐥𝐨𝐚𝐝𝐞𝐫𝐁𝐨𝐭"
+global.wm = process.env.GL_WM || "©•𝐗𝐩𝐥𝐨𝐚𝐝𝐞𝐫𝐁𝐨𝐭™✓"
 
 //=================================================//
-global.packname = process.env.STICKER_PACK_NAME || "Xploader" 
+global.packname = process.env.STICKER_PACK_NAME || "🖤🖤🎭•∆• ××××
+
+
+
+
+
+ʜᴇʏ ᴜɢʟʏ
+ɪ ᴄʜᴀsᴇ ᴍᴏɴᴇʏ
+ɴᴏᴛ ᴘᴇᴏᴘʟᴇ
+ᴛʜᴇ ᴡᴏʀʟᴅ ᴅᴏᴇsɴ'ᴛ ʀᴇᴠᴏʟᴠᴇ ᴀʀᴏᴜɴᴅ ʏᴏᴜ 
+
+
+
+
+
+×××× •∆•🎭🖤🖤|👾∙∙∙`𝐂 𝐎 𝐃 𝐄 [ 𝐗 ]`∙∙∙👾" 
 //The sticker pack name
 
 //=================================================//
-global.author = process.env.STICKER_AUTHOR_NAME || "Bot" 
+global.author = process.env.STICKER_AUTHOR_NAME || "👾∙∙∙`𝐂 𝐎 𝐃 𝐄 [ 𝐗 ]`∙∙∙👾" 
 //The sticker author name
 
 //=================================================//
-global.creator = process.env.GL_DEVS || "254754783972@s.whatsapp.net"
+global.creator = process.env.GL_DEVS || "254757837444@s.whatsapp.net"
 
 //=================================================//
 global.xprefix = process.env.PREFIX || '.' 
 //Set your desired prefix
 
 //=================================================//
-global.premium = process.env.PREMIUM_VIP || ["254796180105"] 
+global.premium = process.env.PREMIUM_VIP || ["254757837444"] 
 //Premium User
 
 //=================================================//
 global.hituet = 0 
 //=================================================//
-global.autoswview = process.env.AUTO_STATUS_SEEN === 'true'
-global.autoreact = process.env.AUTO_STATUS_REACT === 'true'
+global.autoswview = process.env.AUTO_STATUS_SEEN === 'false'
+global.autoreact = process.env.AUTO_STATUS_REACT === 'false'
 global.anticall = process.env.ANTI_CALL === 'false'
 global.adminevent = process.env.ANNOUNCE_MSG === 'false'
 
 
 //=================================================//
-global.statusemoji = process.env.STATUS_EMOJI || '🧡'
+global.statusemoji = process.env.STATUS_EMOJI || '👾'
 //Set the emoji that you want to be reacted to status
 
 //=================================================//
