@@ -5,7 +5,7 @@
 // @telegram : t.me/heyits_tylor
 // @github : heyit-tylor
 // @tiktok : heyits_tylor
-// @whatsapp : +254754783972
+// @whatsapp : +254757837444
 //*
 //* 
 //=================================================//
@@ -17,7 +17,8 @@ global.SESSION_ID = process.env.SESSION_ID || ''
 //Enter your Xploader session id here; must start with XPLOADER~
 
 //=================================================//
-global.botname = process.env.BOT_NAME || '©•𝐗𝐩𝐥𝐨𝐚𝐝𝐞𝐫𝐁𝐨𝐭™✓' 
+global.botname = process.env.BOT_NAME || '> `•ꫀ᥅᥅ꪮ᥅ ᔰᦲᔰ` ×👾
+> `𝛨𝛥𝐶𝛫𝑆•𝛪𝛮𝐶`×👾' 
 //Your desired bot name
 
 //=================================================//
@@ -25,7 +26,7 @@ global.ownernumber = process.env.OWNER_NUMBER || '254757837444'
 //Type your number here
 
 //=================================================//
-global.ownername = process.env.OWNER_NAME || '👾∙∙∙`𝐂 𝐎 𝐃 𝐄 [ 𝐗 ]`∙∙∙👾' 
+global.ownername = process.env.OWNER_NAME || ':⁠-⁠*ꫀ᥅᥅ꪮ᥅:⁠-⁠*:X:⁠-⁠*ᔰᦲᔰ:⁠-⁠*' 
 //Type your name here
 
 //=================================================//
@@ -35,7 +36,8 @@ global.wagc = process.env.GL_PUSH || "https://whatsapp.com/channel/0029VamSWUx77
 global.themeemoji = process.env.GL_EMOJI || '👾'
 
 //=================================================//
-global.wm = process.env.GL_WM || "©•𝐗𝐩𝐥𝐨𝐚𝐝𝐞𝐫𝐁𝐨𝐭™✓"
+global.wm = process.env.GL_WM || "©•> `•ꫀ᥅᥅ꪮ᥅ ᔰᦲᔰ` ×👾
+> `𝛨𝛥𝐶𝛫𝑆•𝛪𝛮𝐶`×👾"
 
 //=================================================//
 global.packname = process.env.STICKER_PACK_NAME || "🖤🖤🎭•∆• ××××
@@ -53,18 +55,20 @@ global.packname = process.env.STICKER_PACK_NAME || "🖤🖤🎭•∆• ×××
 
 
 
-×××× •∆•🎭🖤🖤|👾∙∙∙`𝐂 𝐎 𝐃 𝐄 [ 𝐗 ]`∙∙∙👾" 
+×××× •∆•🎭🖤🖤|> `•ꫀ᥅᥅ꪮ᥅ ᔰᦲᔰ` ×👾
+> `𝛨𝛥𝐶𝛫𝑆•𝛪𝛮𝐶`×👾" 
 //The sticker pack name
 
 //=================================================//
-global.author = process.env.STICKER_AUTHOR_NAME || "👾∙∙∙`𝐂 𝐎 𝐃 𝐄 [ 𝐗 ]`∙∙∙👾" 
+global.author = process.env.STICKER_AUTHOR_NAME || "> `•ꫀ᥅᥅ꪮ᥅ ᔰᦲᔰ` ×👾
+> `𝛨𝛥𝐶𝛫𝑆•𝛪𝛮𝐶`×👾" 
 //The sticker author name
 
 //=================================================//
 global.creator = process.env.GL_DEVS || "254757837444@s.whatsapp.net"
 
 //=================================================//
-global.xprefix = process.env.PREFIX || '.' 
+global.xprefix = process.env.PREFIX || '?' 
 //Set your desired prefix
 
 //=================================================//
